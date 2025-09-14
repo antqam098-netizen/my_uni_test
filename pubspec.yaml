@@ -1,0 +1,28 @@
+name: my_uni_test
+description: نسخة تجريبية خفيفة لتطبيق جدول المحاضرات
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'   # أحدث Dart
+  flutter: '>=3.24.0'     # أحدث Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # قاعدة بيانات
+  sqflite: ^2.3.2         # أحدث
+  path: ^1.9.0
+  # إشعارات
+  flutter_local_notifications: ^17.2.2
+  android_alarm_manager_plus: ^4.0.3
+  # أدوات
+  intl: ^0.19.0           # أحدث
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0   # أحدث قواعد
+
+flutter:
+  uses-material-design: true
